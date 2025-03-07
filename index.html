@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReConfig Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2 class="logo">⚡ReConfig</h2>
+        <ul id="sidebar-top">
+            <hr>
+            <li class="active"><a href="#">🏠 Dashboard</a></li>
+            <li><a href="#">⚙️ Settings</a></li>
+            <hr>
+        </ul>
+
+        <ul id="sidebar-bottom">
+            <div class="list-section">
+                <h3>Enrolled</h3>
+                <ul class="enrolled-list">
+                    <li>
+                        Linear Algebra
+                    </li>
+                    <li>
+                        Data Structures
+                    </li>
+                    <li>
+                        International Relations
+                    </li>
+                </ul>
+            </div>            
+            
+        </ul>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="nav-right">
+            <div class="profile-icon">
+                <img src="profile.jpg" alt="Profile">
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header pink">Linear Algebra</div>
+            <div class="card-body">
+                <p>MT-203-UG21(3rd), BS CSE(Sec-A)</p>
+                <p>Dr. Naeem Ullah</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header gray">Data Structures and Algorithms-Fall2K22</div>
+            <div class="card-body">
+                <p>A, B</p>
+                <p>Syed Ali Nqai Raza</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header green">International Relations</div>
+            <div class="card-body">
+                <p>HS-302-UG 21 3RD, SE Section A-B</p>
+                <p>Zahida Jabeen Maths</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header dark-gray">Software Requirements Engineering</div>
+            <div class="card-body">
+                <p>SE-201 Fall 2022, BSSE-2021(A)</p>
+                <p>Mehwish Naseer</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
